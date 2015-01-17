@@ -1,0 +1,1 @@
+git clone git://github.com/sivel/speedtest-cli.git speedtest-cli
