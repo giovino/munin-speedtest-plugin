@@ -1,1 +1,1 @@
-58,18,38 * * * * root /usr/local/speedtest-cli/speedtest-cli --simple > /tmp/speedtest.out
+58,18,38 * * * * root /usr/local/speedtest-cli/speedtest-cli --simple > /tmp/speedtest.out.new && mv /tmp/speedtest.out.new /tmp/speedtest.out
