@@ -21,6 +21,11 @@ Setup instructions:
   cp /<path>/<to>/<file>/speedtest.sh /etc/munin/plugins/speedtest.sh
   chmod 777 /etc/munin/plugins/speedtest.sh
   ```
+1. Restart munin-node to detect the new plugin
+
+  ```bash
+  sudo /etc/init.d/munin-node restart
+  ```
 
 Original author: Alex Pardoe
 
